@@ -47,6 +47,10 @@
                     <td><span><b>Phone</b></span></td>
                     <td>:<input type="tel" name="phone_no"></td>
                 </tr>
+				<tr>
+					<td><span><b>birthDate</b></span></td>
+					<td>:<input type="date" name="date"></td>
+				</tr>
                 <tr>
                     <td><span><b>Gender</b></span></td>
                     <td>:<input type="radio" name="gender" value="Male"><span>Male</span>
@@ -70,6 +74,11 @@
   News Article<input type="checkbox" value="News Article" name="where did you hear about us?">
   </td>
 </tr>
+<tr>
+	 				<td><span><b>Bio</b></span></td>
+					 <td>:<textarea name="bio" value="<?php echo $bio;?>"></textarea>
+					 <span><?php echo "&nbsp".$err_bio;?></span></td>
+				</tr>
 
  
 
